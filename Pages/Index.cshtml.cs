@@ -22,10 +22,7 @@ namespace EF_Database.Pages
 
         public void OnGet()
         {
-            var posts = (from a in myBlogContext.articles
-                        orderby a.Created descending
-                        select a).ToList();
-            ViewData["posts"] = posts;
+            
         }
     }
 }

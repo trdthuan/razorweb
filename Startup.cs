@@ -60,3 +60,8 @@ namespace EF_Database
         }
     }
 }
+
+
+/*
+ dotnet aspnet-codegenerator razorpage -m EF_Database.models.Article -dc EF_Database.models.MyBlogContext -outDir Pages/Blog -udl --referenceScriptLibraries
+**/
